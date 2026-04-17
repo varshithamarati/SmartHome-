@@ -1,0 +1,72 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #0f3d3e;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #00ffcc;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+  background: linear-gradient(135deg, #00bfa6, #009688);
+}
+
+/* Welcome Card */
+.welcome-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.welcome-card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #00e676;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Grid */
+.status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Cards */
+.status-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}

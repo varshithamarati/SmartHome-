@@ -1,0 +1,42 @@
+.devices-container {
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d4fcf9, #fef9d7);
+  font-family: Arial;
+}
+
+.devices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.device-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.device-card img {
+  width: 90px;
+  height: 90px;
+}
+
+.device-card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.on {
+  background: green;
+}
+
+.off {
+  background: red;
+}
